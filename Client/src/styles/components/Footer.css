@@ -1,0 +1,11 @@
+footer {
+  box-sizing: border-box;
+  border-top: black solid 1px ;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgb(159, 159, 159);
+  text-align: center;
+  margin-bottom: 0 !important;
+}
