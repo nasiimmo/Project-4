@@ -10,6 +10,12 @@ class Car(models.Model):
         to='manufacturer.Manufacturer',
         related_name='cars'
     )
+    owner = models.ForeignKey(
+            to='users.User',
+            on_delete=models.CASCADE,
+            related_name='owned_cars',
+            null=True
+        )
 
     def __str__(self):
         return f'{self.make} - {self.model} ({self.year})'

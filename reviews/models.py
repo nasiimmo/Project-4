@@ -11,3 +11,9 @@ class Review(models.Model):
         on_delete=models.CASCADE, 
         related_name='reviews'
     )
+    owner = models.ForeignKey(
+        to='users.User',
+        on_delete=models.CASCADE,
+        related_name='reviews',
+        null=True
+    )
