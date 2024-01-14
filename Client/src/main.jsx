@@ -10,7 +10,15 @@ import CarIndex from './components/carIndex'
 import CarSingle from './components/carSingle'
 import CarCreate from './components/carCreate'
 import CarUpdate from './components/carUpdate'
-import Profile from './components/profile'
+import ProfileUser from './components/Profile'
+import Login from './components/Login'
+import Register from './components/Register'
+
+import { updateOrDeleteCar, createCar } from './utils/actions/cars'
+import { getSingleCar, getProfile, getAllCars } from './utils/loaders'
+import { loginUser, registerUser } from './utils/actions/auth'
+
+
 
 const router = createBrowserRouter([
   {
@@ -23,25 +31,39 @@ const router = createBrowserRouter([
       },
       {
         path: '/carIndex',
-        element: <CarIndex />
+        element: <CarIndex />,
+        loader: getAllCars
       },
       {
         path: '/carIndex/:carId',
         element: <CarSingle />
       },
       {
-        path: '/carIndex/create',
-        element: <CarCreate />
+        path: '/cars/create',
+        element: <CarCreate />,
+        action: async ({ request }) => createCar(request)
       },
       {
         path: '/carIndex/:carId/update',
-        element: <CarUpdate />
+        element: <CarUpdate />,
+        action: async ({ request, params }) => updateOrDeleteCar(request, params.carId),
+        loader: async ({ params }) => getSingleCar(params.carId)
       },
       {
-        path: '/profile',
-        element: <Profile />,
-        
-      }
+        path: "/auth/:id",
+        element: <ProfileUser/>,
+        loader: async ({ params }) => getProfile(params.id)
+      },
+      {
+        path:"/auth/login",
+        element: <Login/>,
+        action: async ({ request }) => loginUser(request)
+      },
+      {
+        path:"/auth/register",
+        element: <Register/>,
+        action: async ({ request }) => registerUser(request)
+      },
     ]
   }
 ])

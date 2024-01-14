@@ -1,29 +1,29 @@
-// import axios from 'axios'
+import axios from 'axios'
 
-// // eslint-disable-next-line react/prop-types
-// export default function ImageUploadField({ image, setImage }){
+// eslint-disable-next-line react/prop-types
+export default function ImageUploadField({ image, setImage }){
   
-//   async function handleImageUpload(e){
-//     const preset = import.meta.env.VITE_UPLOAD_PRESET
-//     const file = e.target.files[0]
-//     const endpoint = import.meta.env.VITE_UPLOAD_URL
+  async function handleImageUpload(e){
+    const preset = import.meta.env.VITE_UPLOAD_PRESET
+    const file = e.target.files[0]
+    const endpoint = import.meta.env.VITE_UPLOAD_URL
 
-//     //create form to send to cloud - append file + preset
-//     const data = new FormData()
-//     data.append('file', file)
-//     data.append('upload_preset', preset)
+    //create form to send to cloud - append file + preset
+    const data = new FormData()
+    data.append('file', file)
+    data.append('upload_preset', preset)
 
-//     // send form to endpoint
-//     const { data: { secure_url } } = await axios.post(endpoint, data)
+    // send form to endpoint
+    const { data: { secure_url } } = await axios.post(endpoint, data)
     
-//     setImage(secure_url)
-//   }
+    setImage(secure_url)
+  }
 
-//   return (
-//     <>
-//         <img src={image} alt="Winery-Image" />
-//         <input type="hidden" name="image" value={image} className="imageUpload"/>
-//         <input type="file" onChange={handleImageUpload} />
-//     </>
-//   )
-// }
+  return (
+    <>
+        <img src={image} alt="Car-Image" />
+        <input type="hidden" name="image" value={image} className="imageUpload"/>
+        <input type="file" onChange={handleImageUpload} />
+    </>
+  )
+}
