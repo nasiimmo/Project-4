@@ -3,12 +3,13 @@ import { useEffect, useState } from 'react'
 import ImageUploadField from './ImageUploadField'
 
 export default function CarCreate() {
-  const res = useActionData
+  const res = useActionData()
   const navigate = useNavigate()
   const [image, setImage] = useState('')
 
+
   useEffect(() => {
-    if (res?.status === 200) {
+    if (res?.status === 201) {
       console.log('CREATED SUCCESSFULLY')
       navigate(`/carIndex/${res.data._id}`)
     }

@@ -13,8 +13,8 @@ export default function Login() {
     // If login is successful, navigate to home page
     // Use optional chaining to check if res is defined and not throw error if not
     if (res?.status === 200) {
-      setToken(res.data.token)
-      console.log(res.data.token)
+      setToken(res.data.access)
+      console.log('LOG-IN SUCCESSFUL')
       navigate('/')
     }
   }, [res, navigate])

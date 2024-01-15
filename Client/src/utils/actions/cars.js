@@ -2,9 +2,13 @@ import axios from 'axios'
 import { formToObj, getToken } from '../helpers/common'
 import { redirect } from 'react-router-dom'
 
+
 export async function createCar(request) {
+  const token = getToken()
+  console.log('Token:', token)
+
   const data = await formToObj(request)
-  // setTimeout(console.log(data), 5000)
+  console.log('data', data)
   return await axios.post('/api/cars/', data, {
     validateStatus: () => true,
     headers: {

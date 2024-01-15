@@ -7,9 +7,12 @@ export default function Register(){
   
   useEffect(() => {
     if (res?.status === 201) {
+      console.log('REGISTRATION SUCCESFUL')
       navigate('/auth/login')
     }
   }, [res, navigate])
+
+  
 
   return (
     <>

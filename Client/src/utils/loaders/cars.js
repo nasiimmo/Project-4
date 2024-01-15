@@ -9,6 +9,7 @@ export async function createCar(request) {
     validateStatus: () => true,
     headers: {
       Authorization: `Bearer ${getToken()}`
+      
     }
   })
 }
