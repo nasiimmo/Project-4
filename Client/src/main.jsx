@@ -14,11 +14,11 @@ import ProfileUser from './components/Profile'
 import Login from './components/Login'
 import Register from './components/Register'
 
-import { updateOrDeleteCar, createCar } from './utils/actions/cars'
+import { createCar, deleteCar } from './utils/actions/cars'
 import { getSingleCar, getProfile, getAllCars } from './utils/loaders'
 import { loginUser, registerUser } from './utils/actions/auth'
 
-
+import { updatedCar } from './utils/actions/cars'
 
 const router = createBrowserRouter([
   {
@@ -36,7 +36,9 @@ const router = createBrowserRouter([
       },
       {
         path: '/carIndex/:carId',
-        element: <CarSingle />
+        element: <CarSingle />,
+        loader: async ({ params }) => getSingleCar(params.carId),
+        action: async ({ params }) => deleteCar(params.carId)
       },
       {
         path: '/cars/create',
@@ -46,7 +48,7 @@ const router = createBrowserRouter([
       {
         path: '/carIndex/:carId/update',
         element: <CarUpdate />,
-        action: async ({ request, params }) => updateOrDeleteCar(request, params.carId),
+        action: async ({ request, params }) => updatedCar(request, params.carId),
         loader: async ({ params }) => getSingleCar(params.carId)
       },
       {

@@ -5,11 +5,11 @@ export async function getAllCars(){
   return res.data
 }
 export async function getSingleCar(id){
-  const res = await fetch(`/api/cars/${id}`)
+  const res = await axios.get(`/api/cars/${id}/`)
+  console.log(res)
   return res.data
 }
 export async function getProfile(id){
-  const res = await fetch(`/auth/${id}`)
+  const res = await axios.get(`/api/auth/${id}`)
   return res.data
 }
-

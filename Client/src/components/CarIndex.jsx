@@ -11,7 +11,7 @@ export default function CarIndex(){
     <ul>
       {cars.map(car => (
         <li key={car.id}>
-          <h3>{car.image}</h3>
+          <img src={car.image}/>
           <p>{car.make} {car.model} </p>
         </li>
       ))}

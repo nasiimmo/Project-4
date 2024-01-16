@@ -6,6 +6,11 @@ export default function CarCreate() {
   const res = useActionData()
   const navigate = useNavigate()
   const [image, setImage] = useState('')
+  const [manufacturer, setManufacturer] = useState('')
+
+  const handleManufacturerChange = (e) => {
+    setManufacturer(e.target.value);
+  }
 
 
   useEffect(() => {
@@ -22,14 +27,25 @@ export default function CarCreate() {
         <input type='text' name='make' placeholder='Make...' />
         <input type='text' name='model' placeholder='Model...' />
         <input type='text' name='year' placeholder='Year...' />
-        <input type='text' name='manufacturer' placeholder='* Region' />
-        <div className="create-image">
-        <ImageUploadField image={image} setImage={setImage} />
-        </div>
-        <div className="create-Btn-container">
-          <button className="createBtn" type="submit">Create your car</button>
-        </div>
-        {res?.data?.message && <p className='danger bold mt-4'>{res.data.message}</p>}
+        <div className="dropdown-container">
+          <label htmlFor="manufacturer">Region:</label>
+          <select
+            id="manufacturer"
+            name="manufacturer"
+            value={manufacturer} onChange={handleManufacturerChange}>
+            <option value="">Select a region</option>
+            <option value={1}>Germany</option>
+            <option value={2}>Italy</option>
+            
+          </select>
+          </div>
+          <div className="create-image">
+            <ImageUploadField image={image} setImage={setImage} />
+          </div>
+          <div className="create-Btn-container">
+            <button className="createBtn" type="submit">Create your car</button>
+          </div>
+          {res?.data?.message && <p className='danger bold mt-4'>{res.data.message}</p>}
       </Form >
     </>
   )
