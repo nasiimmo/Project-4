@@ -8,15 +8,16 @@ export default function CarCreate() {
   const [image, setImage] = useState('')
   const [manufacturer, setManufacturer] = useState('')
 
+
   const handleManufacturerChange = (e) => {
-    setManufacturer(e.target.value);
+    setManufacturer(e.target.value)
   }
 
 
   useEffect(() => {
     if (res?.status === 201) {
       console.log('CREATED SUCCESSFULLY')
-      navigate(`/carIndex/${res.data._id}`)
+      navigate(`/carIndex/${res.data.id}`)
     }
   }, [res, navigate])
 
@@ -27,23 +28,27 @@ export default function CarCreate() {
         <input type='text' name='make' placeholder='Make...' />
         <input type='text' name='model' placeholder='Model...' />
         <input type='text' name='year' placeholder='Year...' />
-        <div className="dropdown-container">
-          <label htmlFor="manufacturer">Region:</label>
+        <div className='dropdown-container'>
+          <label htmlFor='manufacturer'>Region:</label>
           <select
-            id="manufacturer"
-            name="manufacturer"
+            id='manufacturer'
+            name='manufacturer'
             value={manufacturer} onChange={handleManufacturerChange}>
-            <option value="">Select a region</option>
+            <option value=''>Select a region</option>
             <option value={1}>Germany</option>
             <option value={2}>Italy</option>
+            <option value={5}>United States</option>
+            <option value={6}>Japan</option>
+            <option value={7}>England</option>
+            <option value={8}>France</option>
             
           </select>
           </div>
-          <div className="create-image">
+          <div className='create-image'>
             <ImageUploadField image={image} setImage={setImage} />
           </div>
-          <div className="create-Btn-container">
-            <button className="createBtn" type="submit">Create your car</button>
+          <div className='create-Btn-container'>
+            <button className='createBtn' type='submit'>Create your car</button>
           </div>
           {res?.data?.message && <p className='danger bold mt-4'>{res.data.message}</p>}
       </Form >
