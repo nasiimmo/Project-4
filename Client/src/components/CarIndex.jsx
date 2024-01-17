@@ -6,7 +6,7 @@ export default function CarIndex() {
 
   return (
     <section className="Browse-cars">
-      <h1 className='browse'>Browse</h1>
+      <h1 className='browse text-center'>Browse</h1>
       <ul className="car-list">
         {cars.map((car) => (
           <li key={car.id} className="car-item">

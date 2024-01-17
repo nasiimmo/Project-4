@@ -63,9 +63,9 @@ export default function CarSingle() {
             <div className='edit-delete'>
               <Link className='single-to-edit' to={`/carIndex/${id}/update`}>edit car</Link>
               <Form method='POST'>
-                <ul>
-                <li type='submit' className="delete">Delete</li>
-                </ul>
+                
+                <button type='submit' className="delete">Delete</button>
+                
               </Form>
             </div>
           )}

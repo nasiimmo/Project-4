@@ -1,0 +1,64 @@
+/* YourComponent.css */
+
+/* Style the form container */
+.show-case {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333; /* Dark text color */
+}
+
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Style form inputs and labels */
+.input-text {
+  margin-bottom: 1rem;
+}
+
+.input-text input,
+.input-text textarea,
+.input-text select {
+  width: calc(100% - 1.5rem); /* Adjust the width as needed */
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Style the image upload field */
+.create-image {
+  margin-bottom: 1rem;
+}
+
+/* Style the create button */
+.create-Btn-container {
+  text-align: center;
+}
+
+.createBtn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth button hover transition */
+}
+
+.createBtn:hover {
+  background-color: #0056b3;
+}
+
+/* Style the danger message */
+.danger {
+  color: #dc3545;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* Add more styles as needed */
