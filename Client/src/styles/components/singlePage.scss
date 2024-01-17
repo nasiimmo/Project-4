@@ -1,0 +1,72 @@
+
+body {
+  background-color: rgb(42, 38, 38);
+}
+.description {
+  margin: 0;
+  color: rgb(255, 255, 255);
+  max-width: 400px;
+  max-height: 850px;
+  background-color: rgb(42, 38, 38);
+  padding: 13px;
+  box-sizing: border-box;
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+  box-shadow: 5px 5px black;
+}
+
+.back-button {
+  box-sizing: unset;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  margin-left: 150px;
+}
+.img-single {
+  box-sizing: border-box;
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+  max-width: 700px;
+  max-height: 600px;
+  box-shadow: 5px 5px black;
+  padding: 5px;
+}
+
+.edit-delete {
+  display: flex;
+  flex-direction: row;
+  margin-left: 550px;
+  align-items: center;
+
+
+  .single-to-edit {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+
+  .delete {
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+}
+.back-button {
+  margin: 200px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.back-button, .single-to-edit, .delete {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+.back-button:hover, .single-to-edit:hover, .delete:hover {
+  color: #dcdcdd; 
+  padding-left: 20px; 
+}

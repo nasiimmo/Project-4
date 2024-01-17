@@ -18,14 +18,29 @@ footer {
   font-size: 18px;
   padding-top: 5px;
   font-family: 'Dancing Script', cursive;
+  color: white
 }
 
-svg {
-  height: 20px;
-  color: black;
-}
 
 .github-link {
-  color: rgb(6, 2, 255);
-  text-decoration: underline;
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 1s ease;
+}
+.github {
+  color: rgb(226, 215, 215);
+}
+.github-link:hover {
+  color: #2224d0;
+}
+.footer-icon {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 10px;
+  padding: 10px;
+  font-size: 24px; 
+  transition: color 1s ease; 
+}
+.footer-icon:hover {
+  color: white; /* Hover color, adjust as needed */
 }

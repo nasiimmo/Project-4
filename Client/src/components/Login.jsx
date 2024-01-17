@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { Form, useActionData, useNavigate } from 'react-router-dom'
 import { setToken } from '../utils/helpers/common'
-
+import { Link } from 'react-router-dom'
 export default function Login() {
 
 
@@ -21,14 +21,16 @@ export default function Login() {
 
   return (
     <>
-    <h1 className='text-center bold display-3 mb-4'>Login</h1>
-    <Form className='form' method='POST'>
-      <input type='username' name='username' placeholder='username...' />
-      <input type='password' name='password' placeholder='Password...' />
-      <button className='btn btn-grey' type='submit'>Login</button>
-      {/* Below will return a message to user if username taken, etc. Need to set this up. */}
+    <h1 className='log-in text-center bold display-3 mb-4'>Login</h1>
+    <Form className='custom-form' method='POST'>
+      <input type='username' name='username' className='form-input' placeholder='Username...' />
+      <input type='password' name='password' className='form-input' placeholder='Password...' />
+      <button className='btn btn-blueish form-btn' type='submit'>Login</button>
       {res && <p className='danger'>{res.data.message}</p>}
+    <p className="text-center mt-3">
+      <Link to="/auth/register" className="signup-link">Back to Register</Link>
+    </p>
     </Form>
-    </>
+  </>
   )
 }
