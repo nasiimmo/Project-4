@@ -28,6 +28,7 @@ export default function CarCreate() {
         <input type='text' name='make' placeholder='Make...' />
         <input type='text' name='model' placeholder='Model...' />
         <input type='text' name='year' placeholder='Year...' />
+        <textarea name='bio' placeholder='Description about your car!!'></textarea>
         <div className='dropdown-container'>
           <label htmlFor='manufacturer'>Region:</label>
           <select

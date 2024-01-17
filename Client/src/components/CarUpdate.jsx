@@ -5,12 +5,12 @@ import ImageUploadField from './ImageUploadField'
 export default function CarUpdate() {
   const res = useActionData()
   const navigate = useNavigate()
-  const [image, setImage] = useState('')
+  const [newImage, setNewImage] = useState()
   const [manufacturer, setManufacturer] = useState('')
 
 
   const handleManufacturerChange = (e) => {
-    setManufacturer({ id: e.target.value })
+    setManufacturer(e.target.value )
     console.log(e.target.value)
   }
 
@@ -30,6 +30,7 @@ export default function CarUpdate() {
         <input type='text' name='make' placeholder='Make...' />
         <input type='text' name='model' placeholder='Model...' />
         <input type='text' name='year' placeholder='Year...' />
+        <input type='text' name='bio' placeholder='Description...' />
         <div className='dropdown-container'>
           <label htmlFor='manufacturer'>Region:</label>
           <select
@@ -47,7 +48,7 @@ export default function CarUpdate() {
           </select>
           </div>
           <div className='create-image'>
-            <ImageUploadField image={image} setImage={setImage} />
+            <ImageUploadField image={newImage} setImage={setNewImage} />
           </div>
           <div className='create-Btn-container'>
             <button className='EditBtn' type='submit'>confirm edit</button>

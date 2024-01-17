@@ -11,7 +11,7 @@ export default function CarSingle() {
   const car = useLoaderData()
   console.log('car Data:', car)
 
-const { id, image, make, model, owner } = car
+const { id, image, make, model } = car
 
 return (
 <Container fluid className='car-single'>
@@ -21,7 +21,6 @@ return (
         <div>
         </div>
       )}
-      <h1 className='username'>{owner}</h1>
       <img src={image} />
       <p>{make}</p>
       <p>{model}</p>
