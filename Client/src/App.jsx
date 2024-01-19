@@ -9,8 +9,8 @@ import Loading from './images/spinner.gif'
 function App() {
   const navigation = useNavigation()
   return (
-    <div className="main-container">
 
+      <>
       <Nav />
       <main>
         {navigation.state === 'idle' ? (
@@ -22,8 +22,8 @@ function App() {
         )}
       </main>
       <Footer />
-    </div>
-  );
+      </>
+  )
 }
 
 export default App

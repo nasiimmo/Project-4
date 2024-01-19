@@ -21,9 +21,9 @@ export default function ImageUploadField({ image, setImage }){
 
   return (
     <>
-        <img src={image} alt="Car-Image" style={{maxWidth: '400px', maxHeight: '600px'}}/>
-        <input type="hidden" name="image" value={image} className="imageUpload"/>
-        <input type="file" onChange={handleImageUpload} />
+        <img src={image} alt='Car-Image' style={{maxWidth: '400px', maxHeight: '600px'}}/>
+        <input type='hidden' name='image' value={image} className='imageUpload'/>
+        <input type='file' onChange={handleImageUpload} />
     </>
   )
 }

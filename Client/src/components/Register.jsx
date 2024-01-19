@@ -16,7 +16,7 @@ export default function Register() {
 
   return (
     <>
-      <h1 className="register text-center">Register</h1>
+      <h1 className="register text-center">Create new account</h1>
       <Form className='custom-form' method="POST">
         <input type="text" name="username" className='form-input' placeholder='Username...' />
         <input type="email" name="email" className='form-input' placeholder='Email...' />
@@ -25,7 +25,7 @@ export default function Register() {
         <button className='btn btn-pink form-btn' type="submit">Register</button>
         {res && <p className='danger'>{res.data.message}</p>}
         <p className="text-center mt-3">
-          If you already have an account, <Link to="/auth/login" className="signup-link">sign up</Link>
+          If you already have an account, <Link to="/auth/login" className="signin-link">sign in</Link>
         </p>
       </Form>
     </>

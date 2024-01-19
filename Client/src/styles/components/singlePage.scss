@@ -1,7 +1,15 @@
-
 body {
   background-color: rgb(42, 38, 38);
+  margin: 0;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  margin-left: 150px;
+}
+
 .description {
   margin: 0;
   color: rgb(255, 255, 255);
@@ -12,25 +20,16 @@ body {
   box-sizing: border-box;
   border-top-right-radius: 14px;
   border-bottom-right-radius: 14px;
-  box-shadow: 5px 5px black;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.back-button {
-  box-sizing: unset;
-}
-.container{
-  display: flex;
-  justify-content: center;
-  padding-top: 40px;
-  margin-left: 150px;
-}
 .img-single {
   box-sizing: border-box;
   border-top-left-radius: 14px;
   border-bottom-left-radius: 14px;
   max-width: 700px;
   max-height: 600px;
-  box-shadow: 5px 5px black;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   padding: 5px;
 }
 
@@ -39,34 +38,36 @@ body {
   flex-direction: row;
   margin-left: 550px;
   align-items: center;
-
-
-  .single-to-edit {
-    margin: 10px;
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-  }
-
-  .delete {
-    margin: 15px;
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-  }
 }
+
+.single-to-edit,
+.delete,
 .back-button {
-  margin: 200px;
   text-decoration: none;
   color: white;
   font-size: 20px;
-}
-.back-button, .single-to-edit, .delete {
-  text-decoration: none;
-  color: white;
   transition: all 0.3s ease;
 }
-.back-button:hover, .single-to-edit:hover, .delete:hover {
-  color: #dcdcdd; 
-  padding-left: 20px; 
+
+.delete {
+  margin: 15px;
+  padding: 10px 20px;
+  background-color: #dc3545;
+  border: 2px solid #dc3545;
+  border-radius: 8px;
+}
+
+.back-button {
+  margin: 20px;
+}
+
+.back-button:hover,
+.single-to-edit:hover {
+  color: #dcdcdd;
+  transform: translateX(5px);
+}
+
+.delete:hover {
+  color: hwb(0 11% 88%);
+  transform: translateX(5px);
 }

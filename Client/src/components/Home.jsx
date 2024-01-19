@@ -1,4 +1,4 @@
-import Background from '../images/gt3-r.jpeg'
+import Background from '../images/gt3-new.jpeg'
 
 
 export default function Home() {
@@ -6,7 +6,7 @@ export default function Home() {
     <>
     <div className='Main-page'>
     <h1 className='porsche text-center'>Porsche 911 GT3 R</h1>
-    <img src={Background} alt="background" style={{width: '75rem' }} className="background-image"/>
+    <img src={Background} alt="background" className="background-image"/>
     </div>
     <div className='home-container'>
       <h3 className='h3-dream'>The Driver's Dream</h3>

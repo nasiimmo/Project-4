@@ -1,14 +1,29 @@
+@keyframes fadeInAndScale {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .Browse-cars {
   width: 75%;
   margin: 0 auto;
+  opacity: 0;
+  transform: translateY(-10px); 
+  animation: fadeInAndScale 1s ease forwards;
 }
-
 .browse {
+  font-family: 'Nunito', sans-serif;
   color: white;
   padding: 10px;
 }
 
 .make-model {
+  font-family: 'Nunito', sans-serif;
   color: white;
   margin: 0;
   padding: 5px;
@@ -47,5 +62,76 @@
   object-fit: cover; 
   border-radius: 8px 8px 0 0;
 }
+
+
+// @keyframes fadeInAndScale {
+//   from {
+//     opacity: 0;
+//     transform: translateY(-20px);
+//   }
+//   to {
+//     opacity: 1;
+//     transform: translateY(0);
+//   }
+// }
+
+// .Browse-cars {
+//   width: 75%;
+//   margin: 0 auto;
+//   opacity: 0;
+//   transform: translateY(-10px);
+//   animation: fadeInAndScale 1s ease forwards;
+// }
+
+// .browse {
+//   color: white;
+//   padding: 10px;
+// }
+
+// .make-model {
+//   color: white;
+//   margin: 0;
+//   padding: 5px;
+//   display: none; /* Initially hide make and model */
+// }
+
+// .car-list {
+//   list-style: none;
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: space-between;
+// }
+
+// .car-item {
+//   box-sizing: border-box;
+//   width: 30%;
+//   margin-bottom: 20px;
+// }
+
+// .car-link {
+//   text-decoration: none;
+//   display: block;
+//   border: 2px solid #4d4d4d;
+//   border-radius: 8px;
+//   transition: border-color 0.5s ease, transform 0.5s ease;
+//   overflow: hidden;
+// }
+
+// .car-item:hover .make-model {
+//   display: block; /* Show make and model on hover */
+// }
+
+// .car-link:hover {
+//   border-color: #e3e9ed;
+//   transform: scale(1.05);
+// }
+
+// .car-image {
+//   width: 100%;
+//   height: 250px;
+//   object-fit: cover;
+//   border-radius: 8px 8px 0 0;
+// }
+
 
 

@@ -21,6 +21,8 @@ export default function Login() {
 
   return (
     <>
+    <div className='image-container'>
+    <div className='login-container'>
     <h1 className='log-in text-center bold display-3 mb-4'>Login</h1>
     <Form className='custom-form' method='POST'>
       <input type='username' name='username' className='form-input' placeholder='Username...' />
@@ -31,6 +33,8 @@ export default function Login() {
       <Link to="/auth/register" className="signup-link">Back to Register</Link>
     </p>
     </Form>
+    </div>
+    </div>
   </>
   )
 }

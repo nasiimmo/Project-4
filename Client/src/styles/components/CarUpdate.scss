@@ -1,0 +1,67 @@
+
+.update-car {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form {
+  max-width: 600px; 
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #d2d9e1; 
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease; 
+}
+
+.form:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.form-label {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.form-control,
+.form-select,
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+
+.create-image {
+  margin-bottom: 1rem;
+}
+
+
+.create-Btn-container {
+  text-align: center;
+}
+
+.EditBtn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: #007bff; 
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.EditBtn:hover {
+  background-color: #0056b3; 
+}
+.update-car {
+  font-family: 'Nunito', sans-serif;
+}

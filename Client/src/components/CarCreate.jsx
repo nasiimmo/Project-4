@@ -23,8 +23,8 @@ export default function CarCreate() {
 
   return (
     <>
-  <h1 className='show-case'>Show-case</h1>
   <Form className='form' method='POST'>
+  <h1 className='show-case text-center'>Show-case</h1>
     <div className='input-text'>
       <input type='text' name='make' placeholder='Make...' />
     </div>
@@ -38,12 +38,13 @@ export default function CarCreate() {
       <textarea className='form-control' name='bio' placeholder='Description about your car!!'></textarea>
     </div>
     <div className='input-text'>
+    <div className='dropdown-container select-container'>
       <label htmlFor='manufacturer' className='form-label'>Region:</label>
       <select
         id='manufacturer'
         name='manufacturer'
         value={manufacturer} onChange={handleManufacturerChange}>
-        <option value=''>Select a region</option>
+        <option value='' className='region'>Select a region</option>
         <option value={1}>Germany</option>
         <option value={2}>Italy</option>
         <option value={5}>United States</option>
@@ -51,6 +52,7 @@ export default function CarCreate() {
         <option value={7}>England</option>
         <option value={8}>France</option>
       </select>
+      </div>
     </div>
     <div className='input-text'>
       <div className='create-image'>
