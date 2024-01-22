@@ -2,6 +2,10 @@ import { useEffect } from 'react'
 import { Form, useActionData, useNavigate } from 'react-router-dom'
 import { setToken } from '../utils/helpers/common'
 import { Link } from 'react-router-dom'
+
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
+
 export default function Login() {
 
 
@@ -16,25 +20,28 @@ export default function Login() {
       setToken(res.data.access)
       console.log('LOG-IN SUCCESSFUL')
       navigate('/')
+    } else if (res?.status === 401) {
+      toast.error(' Username or Password is wrong, try again!!')
     }
   }, [res, navigate])
 
   return (
     <>
-    <div className='image-container'>
-    <div className='login-container'>
-    <h1 className='log-in text-center bold display-3 mb-4'>Login</h1>
-    <Form className='custom-form' method='POST'>
-      <input type='username' name='username' className='form-input' placeholder='Username...' />
-      <input type='password' name='password' className='form-input' placeholder='Password...' />
-      <button className='btn btn-blueish form-btn' type='submit'>Login</button>
-      {res && <p className='danger'>{res.data.message}</p>}
-    <p className="text-center mt-3">
-      <Link to="/auth/register" className="signup-link">Back to Register</Link>
-    </p>
-    </Form>
-    </div>
-    </div>
-  </>
+      <div className='image-container'>
+        <div className='login-container'>
+          <h1 className='log-in text-center bold display-3 mb-4'>Login</h1>
+          <Form className='custom-form' method='POST'>
+            <input type='username' name='username' className='form-input' placeholder='Username...' />
+            <input type='password' name='password' className='form-input' placeholder='Password...' />
+            <button className='btn btn-blueish form-btn' type='submit'>Login</button>
+            {res && <p className='danger'>{res.data.message}</p>}
+            <p className="text-center mt-3">
+              <Link to="/auth/register" className="signup-link">Back to Register</Link>
+            </p>
+          </Form>
+        </div>
+      </div>
+      <ToastContainer theme='dark'/>
+    </>
   )
 }

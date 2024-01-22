@@ -23,16 +23,23 @@ export default function CarCreate() {
 
   return (
     <>
+    <div className='showcase-section'>
+    <div className='text-box'>
+    Share the spotlight with your car, boasting about its amazing performance and unique features.
+    Take a moment to reveal where it was made and take pride in its origins.
+    Let's have some fun and see who can claim the title of making the best car. 
+    Show off your wheels, appreciate the craftsmanship, and let the friendly competition begin!
+    </div>
   <Form className='form' method='POST'>
   <h1 className='show-case text-center'>Show-case</h1>
     <div className='input-text'>
-      <input type='text' name='make' placeholder='Make...' />
+      <input type='text' name='make' placeholder='Enter your make...' />
     </div>
     <div className='input-text'>
-      <input type='text' name='model' placeholder='Model...' />
+      <input type='text' name='model' placeholder='Enter your Model...' />
     </div>
     <div className='input-text'>
-      <input type='text' name='year' placeholder='Year...' />
+      <input type='text' name='year' placeholder='Enter the Year of your car...' />
     </div>
     <div className='input-text'>
       <textarea className='form-control' name='bio' placeholder='Description about your car!!'></textarea>
@@ -66,7 +73,7 @@ export default function CarCreate() {
     </div>
     {res?.data?.message && <p className='danger bold mt-4'>{res.data.message}</p>}
   </Form>
+  </div>
 </>
-
   )
 }

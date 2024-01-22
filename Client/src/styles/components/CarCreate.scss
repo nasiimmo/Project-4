@@ -1,3 +1,16 @@
+.showcase-section {
+  display: flex;
+  align-items: center;
+}
+
+.text-box {
+  font-family: 'Nunito', sans-serif;
+  font-size: 25px;
+  color: white;
+  padding-left: 50px;
+  margin-left: 50px;
+  max-width: 400px;
+}
 
 .show-case {
   font-size: 2rem;
@@ -5,8 +18,7 @@
 }
 
 .form {
-  max-width: 600px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .input-text {
@@ -52,13 +64,6 @@
   color: white;
 }
 
-.danger {
-  color: #dc3545;
-}
-
-.bold {
-  font-weight: bold;
-}
 
 .select-container {
   position: relative;
@@ -83,4 +88,15 @@ select {
   right: 10px;
   transform: translateY(-50%);
   pointer-events: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .form {
+    padding: 10px;
+  }
+
+  .create-image img {
+    height: auto;
+    max-height: 200px;
+  }
 }
