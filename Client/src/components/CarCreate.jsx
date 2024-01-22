@@ -27,7 +27,7 @@ export default function CarCreate() {
     <div className='text-box'>
     Share the spotlight with your car, boasting about its amazing performance and unique features.
     Take a moment to reveal where it was made and take pride in its origins.
-    Let's have some fun and see who can claim the title of making the best car. 
+    Let&apos;s have some fun and see who can claim the title of making the best car. 
     Show off your wheels, appreciate the craftsmanship, and let the friendly competition begin!
     </div>
   <Form className='form' method='POST'>
@@ -54,10 +54,10 @@ export default function CarCreate() {
         <option value='' className='region'>Select a region</option>
         <option value={1}>Germany</option>
         <option value={2}>Italy</option>
-        <option value={5}>United States</option>
-        <option value={6}>Japan</option>
-        <option value={7}>England</option>
-        <option value={8}>France</option>
+        <option value={3}>United States</option>
+        <option value={4}>Japan</option>
+        <option value={5}>England</option>
+        <option value={6}>France</option>
       </select>
       </div>
     </div>

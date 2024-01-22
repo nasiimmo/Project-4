@@ -51,10 +51,10 @@ export default function CarUpdate() {
         <option value=''>Select a region</option>
         <option value={1}>Germany</option>
         <option value={2}>Italy</option>
-        <option value={5}>United States</option>
-        <option value={6}>Japan</option>
-        <option value={7}>England</option>
-        <option value={8}>France</option>
+        <option value={3}>United States</option>
+        <option value={4}>Japan</option>
+        <option value={5}>England</option>
+        <option value={6}>France</option>
       </select>
       </div>
     </div>

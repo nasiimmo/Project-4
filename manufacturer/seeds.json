@@ -1,0 +1,44 @@
+[
+{
+  "model": "manufacturer.manufacturer",
+  "pk": 1,
+  "fields": {
+    "region": "Germany"
+  }
+},
+{
+  "model": "manufacturer.manufacturer",
+  "pk": 2,
+  "fields": {
+    "region": "Italy"
+  }
+},
+{
+  "model": "manufacturer.manufacturer",
+  "pk": 3,
+  "fields": {
+    "region": "United States"
+  }
+},
+{
+  "model": "manufacturer.manufacturer",
+  "pk": 4,
+  "fields": {
+    "region": "Japan"
+  }
+},
+{
+  "model": "manufacturer.manufacturer",
+  "pk": 5,
+  "fields": {
+    "region": "England"
+  }
+},
+{
+  "model": "manufacturer.manufacturer",
+  "pk": 6,
+  "fields": {
+    "region": "France"
+  }
+}
+]

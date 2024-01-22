@@ -1,0 +1,59 @@
+[
+{
+  "model": "users.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$RpiJTTy2OwV4pcnR0v6NsK$zv3SNXJcFTl8tGVjDVmzHkOa0CA82XZ+KZiAx7ZbsDY=",
+    "last_login": "2024-01-15T13:00:39.529Z",
+    "is_superuser": true,
+    "username": "nasiimmo",
+    "first_name": "",
+    "last_name": "",
+    "email": "nasiimmo.691@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-01-11T19:54:53.137Z",
+    "bio": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$leW29lESDHvEVPirpgHdDC$L+LIML4PhBd6vTkHld5Uv66u/J/2GeMlRu5NlRlHJNA=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "bob",
+    "first_name": "",
+    "last_name": "",
+    "email": "bob@email.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-01-11T21:25:03.960Z",
+    "bio": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$SZ42PtKXCaKKUFhbiFWd17$CKzX2AmYmiYABqgkJ6bld25Gr4zJihsrEPdXjyOhdoc=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "husaam",
+    "first_name": "",
+    "last_name": "",
+    "email": "husaam@email.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-01-14T15:48:43.037Z",
+    "bio": null,
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]

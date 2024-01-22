@@ -1,0 +1,210 @@
+[
+{
+  "model": "cars.car",
+  "pk": 1,
+  "fields": {
+    "make": "Mercedes",
+    "model": "A class",
+    "image": "https://res.cloudinary.com/dtcmx9e9o/image/upload/v1705888269/project_4/vbilbz3zxb06zsday9ch.jpg",
+    "year": 2021,
+    "bio": "User\nThe Brabus-tuned Mercedes-Benz A-Class, a product of German engineering, exemplifies high-performance luxury in a compact package. With a potent engine and signature Brabus styling, it delivers an exhilarating driving experience. Crafted with precision in Germany, the A-Class Brabus showcases a blend of sportiness and refinement. As a symbol of automotive ingenuity, it stands as a testament to the fusion of German craftsmanship and high-performance tuning.",
+    "manufacturer": 1,
+    "owner": 3
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 2,
+  "fields": {
+    "make": "NISSAN",
+    "model": "GTR",
+    "image": "https://res.cloudinary.com/dtcmx9e9o/image/upload/v1705888322/project_4/kqhpewwwsnkz6kvls5fm.jpg",
+    "year": 2021,
+    "bio": "The Nissan GT-R, born in Japan, epitomizes high-performance driving with a turbocharged V6 engine for remarkable horsepower. Its all-wheel-drive system and finely-tuned chassis ensure exceptional handling on any surface. The GT-R's distinctive design and iconic features showcase Nissan's commitment to cutting-edge engineering. Inside, driver-focused technology enhances the thrilling experience. A symbol of Japanese precision and innovation, the GT-R stands as a testament to high-performance automotive excellence.",
+    "manufacturer": 6,
+    "owner": 3
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 3,
+  "fields": {
+    "make": "Ferrari",
+    "model": "F40",
+    "image": "https://res.cloudinary.com/dtcmx9e9o/image/upload/v1705888548/project_4/fm3jsx5hldal0vloujmc.jpg",
+    "year": 2014,
+    "bio": "The Ferrari F40, an Italian masterpiece, epitomizes pure performance and automotive passion. Born from the legendary Ferrari stable, it boasts a turbocharged V8 engine and an iconic design, delivering an unmatched driving thrill. Crafted with precision in Italy, the F40 showcases a harmonious blend of speed and elegance. As a symbol of automotive excellence, it stands as a testament to the artistry and engineering prowess of Italian sports car manufacturing.",
+    "manufacturer": 2,
+    "owner": 3
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 4,
+  "fields": {
+    "make": "NISSAN",
+    "model": "R34",
+    "image": "https://res.cloudinary.com/dtcmx9e9o/image/upload/v1705888624/project_4/oxfqmbcsseptavphaebf.jpg",
+    "year": 2020,
+    "bio": "The Nissan Skyline GT-R R34, a Japanese legend, embodies performance and racing heritage. Hailing from Japan, it features a twin-turbocharged inline-six engine and an iconic design, offering an exhilarating driving experience. Crafted with precision, the R34 showcases the fusion of power and agility. As a symbol of Japanese automotive ingenuity, it stands as a testament to the iconic lineage of the Skyline GT-R series and its contribution to the world of high-performance sports cars.",
+    "manufacturer": 6,
+    "owner": 3
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 5,
+  "fields": {
+    "make": "NISSAN",
+    "model": "370 z",
+    "image": "https://res.cloudinary.com/dtcmx9e9o/image/upload/v1705888680/project_4/esszelrlfcxzksainunv.jpg",
+    "year": 2023,
+    "bio": "The Nissan 370Z, hailing from Japan, is a dynamic embodiment of driving excitement. Powered by a potent engine, this sporty coupe delivers a thrilling performance with a focus on agility. Crafted with precision in Japan, the 370Z's sleek design and aerodynamic profile underscore Nissan's commitment to sporty aesthetics. Inside, driver-centric features enhance the overall experience, making each drive an exhilarating adventure. A symbol of Japanese automotive ingenuity, the Nissan 370Z stands as a testament to the pursuit of driving pleasure in a compact, high-performance package.",
+    "manufacturer": 6,
+    "owner": 3
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 6,
+  "fields": {
+    "make": "BMW",
+    "model": "M4",
+    "image": "https://res.cloudinary.com/dtcmx9e9o/image/upload/v1705888719/project_4/dyr5ivhci4egqyhyuvpw.jpg",
+    "year": 2021,
+    "bio": "The BMW M4, born in Germany, epitomizes high-performance driving. Powered by a potent engine—often a turbocharged inline-six or V8—it offers exhilarating acceleration and impressive horsepower. Engineered for precision, its lightweight construction, advanced suspension, and aerodynamic design ensure remarkable agility on both roads and tracks. The M4's driver-centric interior seamlessly integrates cutting-edge technology. A symbol of BMW's commitment to automotive innovation, the M4 stands as a beacon of driving excellence, blending power and precision with unmistakable German engineering.",
+    "manufacturer": 1,
+    "owner": 3
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 7,
+  "fields": {
+    "make": "Rolls Royce",
+    "model": "Cullinan",
+    "image": "https://res.cloudinary.com/dtcmx9e9o/image/upload/v1705889455/project_4/dfw8zfamcvudtx1ci2n1.jpg",
+    "year": 2023,
+    "bio": "The Rolls-Royce Cullinan, a pinnacle of luxury, is crafted in the United Kingdom, showcasing British opulence. With a powerful engine and iconic design, it combines performance with refined elegance. The stately exterior and luxurious interior reflect Rolls-Royce's commitment to timeless design and unparalleled comfort. As the first Rolls-Royce SUV, the Cullinan epitomizes automotive luxury with a blend of British craftsmanship and sophistication.",
+    "manufacturer": 5,
+    "owner": 3
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 8,
+  "fields": {
+    "make": "Bugatti",
+    "model": "Chiron",
+    "image": "https://res.cloudinary.com/dtcmx9e9o/image/upload/v1705889526/project_4/dzptjwov1dld0ymjmjli.jpg",
+    "year": 2021,
+    "bio": "The Bugatti Chiron, born in France, is the epitome of automotive excellence. With a powerhouse engine and sleek design, it defines high-performance luxury. Crafted with precision, the Chiron showcases Bugatti's commitment to unparalleled speed and engineering innovation. As a symbol of automotive prowess, it stands at the pinnacle of French craftsmanship and speed.",
+    "manufacturer": 6,
+    "owner": 3
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 9,
+  "fields": {
+    "make": "Range Rover",
+    "model": "SVR",
+    "image": "https://res.cloudinary.com/dtcmx9e9o/image/upload/v1705889703/project_4/giyvppdsogz8dmee9ov2.jpg",
+    "year": 2020,
+    "bio": "The Range Rover Sport SVR, a British marvel, embodies the epitome of high-performance luxury SUVs. Crafted with precision in the United Kingdom, it features a robust supercharged V8 engine and a distinctive design, delivering an exhilarating driving experience. The SVR variant showcases a perfect fusion of off-road capability and on-road performance. As a symbol of British automotive excellence, it stands at the forefront of the Range Rover lineup, representing the pinnacle of power, sophistication, and versatility.",
+    "manufacturer": 5,
+    "owner": 3
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 10,
+  "fields": {
+    "make": "Dodge",
+    "model": "Challenger",
+    "image": "https://res.cloudinary.com/dtcmx9e9o/image/upload/v1705889773/project_4/k3kt3au3lwfjrcttszrr.jpg",
+    "year": 2021,
+    "bio": "The Dodge Challenger, an American muscle car icon, represents raw power and classic design. Manufactured in the United States, it features a range of potent engines, including V6 and V8 options, delivering thrilling performance on the open road. With its bold and unmistakable styling, the Challenger pays homage to its legendary predecessors. Crafted with American muscle car heritage, it stands as a symbol of uncompromising power, blending modern technology with a timeless design that echoes the golden age of muscle cars.",
+    "manufacturer": 3,
+    "owner": 3
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 11,
+  "fields": {
+    "make": "Audi",
+    "model": "RS7",
+    "image": "https://res.cloudinary.com/dtcmx9e9o/image/upload/v1705889849/project_4/pefj7jpuqw5nqnyfocc2.jpg",
+    "year": 2023,
+    "bio": "The Audi RS7, a German powerhouse, redefines high-performance luxury in a sleek and sophisticated package. Crafted with precision in Germany, it boasts a potent twin-turbocharged V8 engine and a striking design, offering a thrilling driving experience. The RS7 represents the pinnacle of Audi's performance lineup, seamlessly combining speed with refined elegance. As a symbol of German engineering excellence, it stands as a testament to Audi's commitment to delivering cutting-edge technology, dynamic performance, and unmistakable style in the realm of high-performance sports sedans.",
+    "manufacturer": 1,
+    "owner": 3
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 12,
+  "fields": {
+    "make": "BMW",
+    "model": "E46",
+    "image": "https://res.cloudinary.com/dtcmx9e9o/image/upload/v1705889989/project_4/hlklusthyclxlswrvflj.jpg",
+    "year": 2013,
+    "bio": "The BMW E46, a German automotive classic, captures the essence of driving pleasure and precision engineering. Crafted with meticulous attention to detail in Germany, it features a range of engines, including the iconic inline-six, delivering a spirited and engaging driving experience. The E46's timeless design exudes sophistication and sportiness, embodying the harmonious blend of performance and elegance. As a symbol of BMW's commitment to driving dynamics, the E46 remains a cherished icon among enthusiasts, reflecting the brand's legacy of creating engaging and well-crafted driving machines.",
+    "manufacturer": 1,
+    "owner": 3
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 13,
+  "fields": {
+    "make": "Bently",
+    "model": "Continental GT",
+    "image": "https://res.cloudinary.com/dtcmx9e9o/image/upload/v1705890041/project_4/vpmzdh6qvc6cls5r8asv.jpg",
+    "year": 2020,
+    "bio": "The Bentley Continental GT, a British masterpiece, epitomizes grand touring luxury with a blend of high-performance prowess. Crafted with meticulous attention to detail in the United Kingdom, it features a potent engine, often a powerful W12, delivering a seamless combination of speed and opulence. The Continental GT's iconic design reflects Bentley's commitment to handcrafted elegance and sophistication. As a symbol of British automotive excellence, it stands at the zenith of luxury grand touring, offering a driving experience that seamlessly marries power, comfort, and exquisite craftsmanship.",
+    "manufacturer": 5,
+    "owner": 3
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 14,
+  "fields": {
+    "make": "Mercedes",
+    "model": "G wagon",
+    "image": "https://res.cloudinary.com/dtcmx9e9o/image/upload/v1705890133/project_4/fvwejaqeicrfywggwqkq.jpg",
+    "year": 2020,
+    "bio": "The Mercedes-Benz G-Class, often referred to as the G-Wagon, is a German-designed, luxury SUV that marries ruggedness with opulence. Crafted with precision in Germany, it boasts a robust engine lineup and an iconic, boxy design that exudes both power and sophistication. The G-Wagon represents a perfect blend of off-road capability and high-end luxury, making it a symbol of Mercedes-Benz's commitment to versatility and refinement. As an enduring icon in the world of premium SUVs, the G-Wagon stands as a testament to German engineering excellence and timeless design.",
+    "manufacturer": 1,
+    "owner": 3
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 15,
+  "fields": {
+    "make": "Tesla",
+    "model": "Model 3",
+    "image": "https://res.cloudinary.com/dtcmx9e9o/image/upload/v1705890211/project_4/evkxim0pljwshznng0r4.jpg",
+    "year": 2020,
+    "bio": "The Tesla Model 3, a product of American innovation, revolutionizes the electric vehicle landscape with its sleek design and cutting-edge technology. Crafted with precision in the United States, it features an all-electric powertrain, offering a smooth and efficient driving experience. The Model 3's minimalist yet modern design reflects Tesla's commitment to sustainable transportation without compromising style. As a symbol of electric mobility and forward-thinking design, the Model 3 stands at the forefront of the electric car movement, showcasing American ingenuity in the pursuit of a sustainable and high-performance future.",
+    "manufacturer": 3,
+    "owner": 3
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 16,
+  "fields": {
+    "make": "Audi",
+    "model": "RS3",
+    "image": "https://res.cloudinary.com/dtcmx9e9o/image/upload/v1705890316/project_4/h9lf7uds2lszspniwvvu.jpg",
+    "year": 2021,
+    "bio": "The Audi RS3, a German engineering marvel, epitomizes compact performance with a touch of luxury. Crafted with precision in Germany, it features a potent turbocharged engine, often a five-cylinder, delivering exhilarating performance in a compact form. The RS3's sporty design and aggressive stance showcase Audi's commitment to blending power with style. As a symbol of German automotive excellence, the RS3 stands as a testament to Audi's dedication to creating high-performance vehicles that offer a thrilling driving experience without compromising on comfort and sophistication.",
+    "manufacturer": 1,
+    "owner": 3
+  }
+}
+]

@@ -6,9 +6,12 @@ class Car(models.Model):
     model = models.CharField(max_length=255)
     image = models.URLField()
     year = models.PositiveIntegerField()
-    manufacturer = models.ManyToManyField(
+    bio = models.TextField(max_length=3000, blank=True, null=True)
+    manufacturer = models.ForeignKey(
         to='manufacturer.Manufacturer',
-        related_name='cars'
+        on_delete=models.CASCADE,
+        related_name='cars',
+        null=True
     )
     owner = models.ForeignKey(
             to='users.User',
@@ -19,3 +22,4 @@ class Car(models.Model):
 
     def __str__(self):
         return f'{self.make} - {self.model} ({self.year})'
+    

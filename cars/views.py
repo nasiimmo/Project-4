@@ -16,8 +16,10 @@ class CarListCreateView(OwnerListCreateView):
 class CarDetailView(RetrieveUpdateDestroyAPIView):
     queryset = Car.objects.all()
     permission_classes = [IsOwnerOrReadOnly]
+    
     def get_serializer_class(self):
         print('self request method ->', self.request.method)
-        if self.request.method == 'PUT':
+        if self.request.method == 'PATCH' or 'PUT':
             return CarSerializer
         return PopulatedCarSerializer
+    

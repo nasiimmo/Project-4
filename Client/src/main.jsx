@@ -52,17 +52,17 @@ const router = createBrowserRouter([
         loader: async ({ params }) => getSingleCar(params.carId)
       },
       {
-        path: "/auth/:id",
+        path: '/auth/:id',
         element: <ProfileUser/>,
         loader: async ({ params }) => getProfile(params.id)
       },
       {
-        path:"/auth/login",
+        path:'/auth/login',
         element: <Login/>,
         action: async ({ request }) => loginUser(request)
       },
       {
-        path:"/auth/register",
+        path:'/auth/register',
         element: <Register/>,
         action: async ({ request }) => registerUser(request)
       },
