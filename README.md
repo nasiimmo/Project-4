@@ -94,6 +94,12 @@ Refined the project with minor enhancements such as error handling and incorpora
 
 Encountered numerous 404 and 401 errors, along with persistent bad requests. Despite facing these challenges, I remained composed and diligently reviewed the issues repeatedly.
 
+
+<img src='../images/error-1.png' width="400"/>
+
+<img src='../images/error-2.png' width="400"/>
+
+
 ### Future Improvements
 
 - Integrate a comments section for user feedback.
