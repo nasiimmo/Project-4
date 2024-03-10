@@ -60,17 +60,26 @@ Dedicated to meticulous planning and creating wireframes for each webpage.
 #### Day 2:
 Organized all the folders and files for the backend and initiated work on the backend.
 
+<img src='../images/Day2.png' width="400"/>
+
+
 #### Day 3:
 Encountered a critical issue concerning the user relationship, leading to a restart of the backend.
 
 #### Day 4:
 Commenced work on the frontend, established the folder and file structure, and implemented paths for each page.
 
+<img src='../images/day-4.png' width="400"/>
+
 #### Day 5:
 Populated all pages with relevant information and initiated the design phase of the project.
 
+<img src='../images/day-5.png' width="400"/>
+
 #### Day 6:
 Finalized all components and thoroughly tested for functionality. Some desired styling elements remained unimplemented.
+
+<img src='../images/day-6.png' width="400"/>
 
 #### Day 7:
 Refined the project with minor enhancements such as error handling and incorporating subtle animations.
