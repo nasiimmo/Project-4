@@ -34,6 +34,23 @@ On the first day, I brainstormed numerous ideas and settled on my passion for ca
 
 ![Wireframes](#)
 
+<img src='../images/wf-1.png' width="400"/>
+
+<img src='../images/wf-2.png' width="400"/>
+
+<img src='../images/wf-3.png' width="400"/>
+
+<img src='../images/wf-4.png' width="400"/>
+
+<img src='../images/wf-5.png' width="400"/>
+
+<img src='../images/wf-6.png' width="400"/>
+
+<img src='../images/wf-7.png' width="400"/>
+
+<img src='../images/wf-8.png' width="400"/>
+
+<img src='../images/wf-9.png' width="400"/>
 
 ### Approach Taken
 
