@@ -34,23 +34,23 @@ On the first day, I brainstormed numerous ideas and settled on my passion for ca
 
 ![Wireframes](#)
 
-<img src='../images/wf-1.png' width="400"/>
+<img src='./images/wf-1.png' width="400"/>
 
-<img src='../images/wf-2.png' width="400"/>
+<img src='./images/wf-2.png' width="400"/>
 
-<img src='../images/wf-3.png' width="400"/>
+<img src='./images/wf-3.png' width="400"/>
 
-<img src='../images/wf-4.png' width="400"/>
+<img src='./images/wf-4.png' width="400"/>
 
-<img src='../images/wf-5.png' width="400"/>
+<img src='./images/wf-5.png' width="400"/>
 
-<img src='../images/wf-6.png' width="400"/>
+<img src='./images/wf-6.png' width="400"/>
 
-<img src='../images/wf-7.png' width="400"/>
+<img src='./images/wf-7.png' width="400"/>
 
-<img src='../images/wf-8.png' width="400"/>
+<img src='./images/wf-8.png' width="400"/>
 
-<img src='../images/wf-9.png' width="400"/>
+<img src='./images/wf-9.png' width="400"/>
 
 ### Approach Taken
 
@@ -60,7 +60,7 @@ Dedicated to meticulous planning and creating wireframes for each webpage.
 #### Day 2:
 Organized all the folders and files for the backend and initiated work on the backend.
 
-<img src='../images/Day2.png' width="400"/>
+<img src='./images/Day2.png' width="400"/>
 
 
 #### Day 3:
@@ -69,17 +69,17 @@ Encountered a critical issue concerning the user relationship, leading to a rest
 #### Day 4:
 Commenced work on the frontend, established the folder and file structure, and implemented paths for each page.
 
-<img src='../images/day-4.png' width="400"/>
+<img src='./images/day-4.png' width="400"/>
 
 #### Day 5:
 Populated all pages with relevant information and initiated the design phase of the project.
 
-<img src='../images/day-5.png' width="400"/>
+<img src='./images/day-5.png' width="400"/>
 
 #### Day 6:
 Finalized all components and thoroughly tested for functionality. Some desired styling elements remained unimplemented.
 
-<img src='../images/day-6.png' width="400"/>
+<img src='./images/day-6.png' width="400"/>
 
 #### Day 7:
 Refined the project with minor enhancements such as error handling and incorporating subtle animations.
@@ -95,9 +95,9 @@ Refined the project with minor enhancements such as error handling and incorpora
 Encountered numerous 404 and 401 errors, along with persistent bad requests. Despite facing these challenges, I remained composed and diligently reviewed the issues repeatedly.
 
 
-<img src='../images/error-1.png' width="400"/>
+<img src='./images/error-1.png' width="400"/>
 
-<img src='../images/error-2.png' width="400"/>
+<img src='./images/error-2.png' width="400"/>
 
 
 ### Future Improvements
