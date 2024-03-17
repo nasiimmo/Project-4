@@ -32,11 +32,10 @@ Within a specified one-week timeframe, my aim was to conceive and craft a fully 
 
 On the first day, I brainstormed numerous ideas and settled on my passion for cars as the theme for my project. Following this, I carefully sketched out wireframes for each webpage. Subsequently, I chose the name "FastLaneFleet" for the project. Throughout this phase, I prioritized thorough planning, recognizing its importance in achieving project success.
 
-![Wireframes](#)
 
-<img src='./client/src/images/wf-1.png' width="300"/>
+<img src='./client/src/images/wf-1.png' width="200"/>
 
-<img src='./client/src/images/wf-2.png' width="300"/>
+<img src='./client/src/images/wf-2.png' width="400"/>
 
 <img src='./client/src/images/wf-3.png' width="400"/>
 
@@ -74,12 +73,12 @@ Commenced work on the frontend, established the folder and file structure, and i
 #### Day 5:
 Populated all pages with relevant information and initiated the design phase of the project.
 
-<img src='./client/src/images/day-5.png' width="200"/>
+<img src='./client/src/images/day-5.png' width="150"/>
 
 #### Day 6:
 Finalized all components and thoroughly tested for functionality. Some desired styling elements remained unimplemented.
 
-<img src='./client/src/images/day-6.png' width="200"/>
+<img src='./client/src/images/day-6.png' width="150"/>
 
 #### Day 7:
 Refined the project with minor enhancements such as error handling and incorporating subtle animations.
